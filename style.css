@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Lilita One', cursive;
+}
+
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+}
+h1 {
+  color: #21e6c1;
+}
+body {background-color: #a1eafb;}
+
+
+
+.fixer {
+ width: auto;
+ position: fixed;
+ bottom:0px;
+ right:0px;
+}
+
+.visual > div {
+  position: center;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+}
+.container1 {
+
+
+}
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  z-index: -1
+}
+
+.push_button {
+  position: relative;
+  width:170px;
+  height:30px;
+  text-align:center;
+  color:#FFF;
+  text-decoration:none;
+  line-height:30px;
+  font-size: 20px;
+  font-family: 'Lilita One', cursive;
+  display: block;
+}
+
+
+
+.red {
+  background: #372211;
+  
+  background-image:-webkit-linear-gradient(top, #622a12, #372211);
+  background-image:-moz-linear-gradient(top, #622a12, #372211);
+  background-image:-ms-linear-gradient(top, #622a12, #372211);
+  background-image:-o-linear-gradient(top, #622a12, #372211);
+  background-image:linear-gradient(to bottom, #622a12, #372211);
+  
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  
+ 
+}
+
+.red:hover {
+  background: #372211;
+  background-image:-webkit-linear-gradient(top, #372211, #622a12);
+  background-image:-moz-linear-gradient(top, #372211, #622a12);
+  background-image:-ms-linear-gradient(top, #372211, #622a12);
+  background-image:-o-linear-gradient(top, #372211, #622a12);
+  background-image:linear-gradient(top, #372211, #622a12);
+}
